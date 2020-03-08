@@ -1,0 +1,60 @@
+[
+  {
+    "id": 2,
+    "publishedBy": 2,
+    "imageUrl": "/posts/post_canserkan2.jpeg",
+    "description": "Nouvelle photo!!",
+    "comments": [
+      {
+        "id": 3,
+        "from": {
+          "id": "2"
+        },
+        "message": "Bg la photo!!"
+      }
+    ],
+    "likes": [
+      2
+    ],
+    "publishedDate": "1583401733929"
+  },
+  {
+    "id": 3,
+    "publishedBy": 1,
+    "imageUrl": "/posts/post_canserkan3.jpeg",
+    "description": "Nouvelle photo!!",
+    "comments": [
+      {
+        "id": 2,
+        "from": {
+          "id": "2"
+        },
+        "message": "Bg la photo!!"
+      }
+    ],
+    "likes": [
+      2
+    ],
+    "publishedDate": "1583401727672"
+  },
+  {
+    "id": 1,
+    "publishedBy": 1,
+    "imageUrl": "/posts/post_canserkan1.jpeg",
+    "description": "Nouvelle photo!!",
+    "comments": [
+      {
+        "id": 1,
+        "from": {
+          "id": "1"
+        },
+        "message": "Bg la photo!!"
+      }
+    ],
+    "likes": [
+      1,
+      2
+    ],
+    "publishedDate": "1583401719096"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Can Serkan",
+    "email": "canserkan.uren@gmail.com",
+    "password": "password",
+    "profileImage": "/profileImages/canserkan.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Julien",
+    "email": "julien.mifsud@gmail.com",
+    "password": "password",
+    "profileImage": "/profileImages/julien.jpg"
+  }
+]
