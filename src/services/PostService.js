@@ -11,7 +11,9 @@ export function savePost(post) {
 
 export function getPostsFromUsersSorted() {
   const posts = JSON.parse(localStorage.getItem('posts'));
-  return posts.sort((a, b) => new Date(b.published) - new Date(a.published));
+  return posts
+    .sort((a, b) => new Date(b.published) - new Date(a.published))
+    .reverse();
 }
 
 export function updateLikeForPost(id, userId, liked) {
