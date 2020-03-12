@@ -22,8 +22,6 @@ const AddPostScreen = ({ history }) => {
     setLoading(false);
   }, []);
 
-  console.log(moment());
-
   const createPost = event => {
     event.preventDefault();
     const post = {

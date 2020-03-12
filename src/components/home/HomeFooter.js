@@ -10,7 +10,6 @@ const HomeFooter = ({ user, history }) => {
     const reader = new FileReader();
 
     reader.onloadend = ev => {
-      console.log(ev.target.result);
       localStorage.setItem('imageToSet', ev.target.result);
       history.push('/addPost');
     };
